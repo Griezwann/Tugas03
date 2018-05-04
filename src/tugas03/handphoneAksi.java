@@ -16,7 +16,17 @@ public class handphoneAksi {
         System.out.println(h.getWarna());
         System.out.print("Harganya \t: ");
         System.out.println(h.getHarga());
-    
-    }
+        
+        smartphone sp = new smartphone();
+        sp.setMerk("Iphone X");
+        sp.setWarna("black");
+        sp.setHarga(20000000);
+        sp.setJenisSmartphone("Full Screen");
+        sp.cetakInfo();
+        System.out.println("Jenis :"+sp.getJenisSmartphone());
+        sp.throttle();
+                
+        
+        }
     
 }
