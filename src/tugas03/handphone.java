@@ -8,4 +8,11 @@ public class handphone {
     double harga;
     
     
+    
+    
+    void cetakInfo(){
+        System.out.println("Merk \t: "+merk+"\n"+
+                "warna \t: "+warna+"\n"+
+                "harga \t: "+harga);
+    }
 }
